@@ -9,13 +9,13 @@ export default function NavBar(){
                     <NavLink to="/" exact>
                         Mohammad
                     </NavLink>
-                    <NavLink to="/about" exact>
+                    <NavLink to="/about">
                         About me!
                     </NavLink>
-                    <NavLink to="/post" exact>
+                    <NavLink to="/post" >
                         Blog Posts
                     </NavLink>
-                    <NavLink to="/project" exact>
+                    <NavLink to="/project">
                         Projects
                     </NavLink>
                 </nav>
