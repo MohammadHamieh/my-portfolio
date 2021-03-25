@@ -1,7 +1,25 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
-export default function Navbar(){
+export default function NavBar(){
     return (
-        <h1>Navbar page!</h1>
+        <header>
+            <div>
+                <nav>
+                    <NavLink to="/" exact>
+                        Mohammad
+                    </NavLink>
+                    <NavLink to="/about" exact>
+                        About me!
+                    </NavLink>
+                    <NavLink to="/post" exact>
+                        Blog Posts
+                    </NavLink>
+                    <NavLink to="/project" exact>
+                        Projects
+                    </NavLink>
+                </nav>
+            </div>
+        </header>
     )
 }
